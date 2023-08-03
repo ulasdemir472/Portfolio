@@ -18,10 +18,16 @@ export default function Home() {
             Istanbul,Turkey.
           </p>
           <div className={styles.link}>
-            <Link className={styles.linkedin} href="">
+            <Link
+              className={styles.linkedin}
+              href="https://www.linkedin.com/in/ula%C5%9F-demir-788006228/"
+            >
               <LinkedinLogo size={32} />
             </Link>
-            <Link className={styles.github} href="">
+            <Link
+              className={styles.github}
+              href="https://github.com/ulasdemir472"
+            >
               <GithubLogo size={32} />
             </Link>
           </div>
