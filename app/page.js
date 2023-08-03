@@ -41,7 +41,7 @@ export default function Home() {
         />
       </div>
       <div className={styles.footer}>
-        <p className={styles.footTitle}>Tech Stack | </p>
+        <p className={styles.footTitle}>Tech Stack |</p>
         <div className={styles.images}>
           <Image
             className={styles.logo}
