@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 2px;
+    box-shadow: 0px 0.5px 0.5px #999;
 
     .title{
         padding: 10px;
@@ -11,7 +13,7 @@
     }
     .links{
         display: flex;
-        gap: 10px;
+        gap: 30px;
         padding: 10px;
         font-size: 16px;
         font-weight: 700
@@ -21,8 +23,10 @@
 @media screen and (max-width: 480px) {
     .nav{
         display: flex;
+        height: 100%;
         flex-direction: column;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+        box-shadow: none;
     }
     .title{
         display: flex;
