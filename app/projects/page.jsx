@@ -72,6 +72,31 @@ const Project = () => {
             </div>
           </div>
         </Link>
+        <Link
+          href="https://github.com/ulasdemir472/Tindog_With_React"
+          target="_blank"
+        >
+          <div className={styles.project}>
+            <Image
+              className={styles.projectImage}
+              src="/tindog.png"
+              alt="tindog"
+              width={400}
+              height={400}
+            />
+            <div className={styles.content}>
+              <h3>Tindog</h3>
+              <p className={styles.contentDesc}>
+                This is tinder for dogs and owners but not exactly same purpose
+                with tinder.App provides new friends for dogs and owners.
+              </p>
+              <p className={styles.techs}>
+                <span className={styles.tech}>React</span>
+                <span className={styles.tech}>Next</span>
+              </p>
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
