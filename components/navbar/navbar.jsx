@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
+import DarkMode from "../darkMode/darkMode";
 
 const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar = () => {
       </Link>
 
       <div className={styles.links}>
+        <DarkMode />
         <Link className={styles.link} href="/">
           Home
         </Link>

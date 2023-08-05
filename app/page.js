@@ -73,6 +73,7 @@ export default function Home() {
           />
           <Image
             className={styles.logo}
+            style={{ backgroundColor: "#fff", borderRadius: "20px" }}
             src="/next.png"
             alt="next"
             width={40}

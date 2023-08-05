@@ -92,7 +92,8 @@ const Project = () => {
               </p>
               <p className={styles.techs}>
                 <span className={styles.tech}>React</span>
-                <span className={styles.tech}>Next</span>
+                <span className={styles.tech}>Mongo DB</span>
+                <span className={styles.tech}>Express</span>
               </p>
             </div>
           </div>
