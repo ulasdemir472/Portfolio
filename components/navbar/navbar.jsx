@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <Link href="/" className={styles.title}>
-        Ulas.dev
+        ulasdemir.dev
       </Link>
 
       <div className={styles.links}>

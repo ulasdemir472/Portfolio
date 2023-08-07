@@ -63,7 +63,7 @@ const Project = () => {
               height={400}
             />
             <div className={styles.content}>
-              <h3>Quiz App</h3>
+              <h3>Portfolio</h3>
               <p className={styles.contentDesc}>My own portfolio.</p>
               <p className={styles.techs}>
                 <span className={styles.tech}>React</span>
